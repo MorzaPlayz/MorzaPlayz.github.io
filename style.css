@@ -1,0 +1,23 @@
+
+.picture{
+    text-align: center;
+}
+img{
+    border: 2px solid black;
+    border-radius: 100%;
+}
+.textBoxes{
+    text-align: center;
+}
+.l1{
+    margin-bottom: 15px;
+}
+.all{
+    border: 1px solid black;
+    margin-top: 15%;
+    width: 25%;
+    background-color: rgb(39, 39, 39);
+}
+body{
+    background-color: rgb(100, 100, 100);
+}
