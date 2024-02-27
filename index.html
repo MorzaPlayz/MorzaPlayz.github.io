@@ -3,32 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test website</title>
-    <link rel="stylesheet" href="style.css">  
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="script.js"></script>
 </head>
-<body> 
-    
-    <center>
-        <div class="all">
-        <div class="picture">
-            <img src="./Assets/images/profile.png" alt="profile picture">
-        </div> 
-        
-        <div class="textBoxes">
-            <label for="fname">Username:</label>
-            <input type="text" id="Username" name="Username" class="l1"><br>
-    
-            <label for="pwd">Password:</label>
-            <input type="password" id="pwd" name="pwd" class="l1"><br>
-    
-            <label for="lname">Email:</label>
-            <input type="email" id="email" name="email" class="l1"><br>
-    
-            <input type="submit" value="submit" class="l1">
-        </div>
-        
+<body>
+
+    <div class="inputall">
+        <form onsubmit="Login()">
+        <img class="pfp" src="./imgs/download (6).png" alt="Profile picture">
+        <input id="1" class="input1" type="text" placeholder="First name">
+        <input id="2" class="input2" type="text" placeholder="Last name">
+        <input class="button" type="submit" value="Login">
+        </form>
     </div>
-    </center>
-    
+
+    <p id="fname">test</p>
+
 </body>
 </html>
