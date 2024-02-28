@@ -1,3 +1,6 @@
-function login(){
-return document.getElementById("fname").innerHTML = "hi";
-} 
+  let x = x1(x,1);
+
+  function x1(a,b){
+    a+b;
+    return document.getElementById("demo").innerHTML = x;
+  }
